@@ -1,0 +1,110 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-family: sans-serif;
+}
+
+body{
+    background: url(/Picture/pexels-sunyu-kim-1544880.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+
+.Conver{
+    display: grid;
+    width: 100%;
+    grid-template-columns: repeat(2, 0.8fr);
+    gap: 2px;
+    margin: center;
+}
+
+.Conver1{
+    width: 500px;
+    margin: 100px 200px;
+    position: relative;
+    padding: 5px 10px;
+    display:flex;
+    justify-content:left;
+    backdrop-filter: blur(5px);
+    background-color: rgba(250, 250, 250, 0.6);
+    transition: all 1500ms;
+}
+
+.Conver2{
+    width: 500px;
+    margin: 100px -100px;
+    position: relative;
+    padding: 5px 10px;
+    display:flex;
+    justify-content:center;
+    backdrop-filter: blur(5px);
+    background-color: rgba(250, 250, 250, 0.6);
+    transition: all 1500ms;
+}
+
+.Conver2 header{
+    width: 100%;
+    padding: 20px;
+    margin-top: 10px;
+    text-align: center;
+}
+
+.Conver1 header{
+    width: 100%;
+    padding: 20px;
+    margin-top: 10px;
+    text-align: center;
+}
+
+.Solution1{
+    font-weight: 400; 
+    text-align: center;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+
+.Solution1 h1{
+    margin-bottom: 20px;
+    margin-top: 20px;
+    color: rgb(2, 150, 113);
+}
+
+.Solution2{
+    font-weight: 400; 
+    text-align: auto;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+
+.Solution2 h1{
+    margin-bottom: 20px;
+    margin-top: 20px;
+    color: rgb(2, 150, 113);
+}
+
+p{
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+
+button:hover{
+    background: white;
+    color: black;
+}
+
+.contes, .never,.EnviarPre{
+    padding: 10px 40px;
+    margin-top: 1px;
+    margin-left: 10px;
+    border: none;
+    font-size: 14px;
+    background: rgb(12, 199, 168);
+    color: white;
+    cursor: pointer;
+    outline: none;
+}
+

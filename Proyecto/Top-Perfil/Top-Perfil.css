@@ -1,0 +1,52 @@
+.boton{
+    background-color: aqua;
+    color: rgb(247, 0, 0);
+    font-size: 21px;
+    text-align: center;
+    padding: 16px 8px;
+    border: 2px solid rgba(60, 209, 255, 0.932);
+    border-radius: 10px;
+    transition-duration: 0.25s;
+    -webkit-transition-duration: 0.25s;
+    box-shadow: 0px 5px 4px darkblue;
+    position:absolute;
+    left: 50%;
+    top: 80%;
+    transform: translateX(-50%) translateY(80%);
+ }
+ 
+ .boton:hover{
+    background-color: blueviolet;
+    color: cyan;
+ 
+ }
+ 
+ .centrarT{
+    font-size: 40px;
+    text-transform: uppercase;
+    position:absolute;
+    left: 50%;
+    transform: translateX(-50%);
+ }
+ 
+ .CentrarImag{
+       width: 800px;
+       height: auto;
+       margin: auto;
+       display: block;
+       border-radius: 10px;
+       padding: 10px;
+       border: 2px solid chocolate;
+ }
+ 
+ div{
+  width: 100px;
+  position:absolute;
+  left: 25%;
+  top: 40%;
+  transform: translateX(-25%) translateY(-40%);
+ }
+ 
+ .body{
+    background-image: url("/Picture/Gustavo.jpeg");
+ }
