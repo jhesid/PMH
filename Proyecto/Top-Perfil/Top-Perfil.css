@@ -1,0 +1,58 @@
+body{
+   background: url(/Picture/pexels-ian-beckley-2440079.jpg);
+   background-repeat: no-repeat;
+   background-size: cover;
+   background-position: center;
+}
+
+div{
+   width: 1300px;
+   margin: 15px 100px;
+   position: relative;
+   padding: 5px 10px;
+   display:flex;
+   justify-content:left;
+   backdrop-filter: blur(5px);
+   background-color: rgba(250, 250, 250, 0.6);
+   transition: all 1500ms;
+}
+
+div header{
+   width: 100%;
+   padding: 20px;
+   margin-top: 10px;
+   text-align: center;
+}
+
+.Imag{
+   width: 100px;
+   clip-path: circle();
+}
+
+h1{
+   font-size:40px;
+   text-align: center;
+   color: rgb(28, 41, 102);
+}
+
+.CentrarImag{
+   width: 600px;
+   clip-path: ellipse();
+}
+
+button:hover{
+   background: white;
+   color: black;
+}
+
+.boton{
+   padding: 10px 40px;
+   margin-top: 1px;
+   margin-left: 10px;
+   border: none;
+   font-size: 14px;
+   background: rgb(12, 199, 168);
+   color: white;
+   cursor: pointer;
+   outline: none;
+}
