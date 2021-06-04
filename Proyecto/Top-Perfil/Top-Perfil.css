@@ -1,52 +1,58 @@
+body{
+   background: url(/Picture/pexels-ian-beckley-2440079.jpg);
+   background-repeat: no-repeat;
+   background-size: cover;
+   background-position: center;
+}
+
+div{
+   width: 1300px;
+   margin: 15px 100px;
+   position: relative;
+   padding: 5px 10px;
+   display:flex;
+   justify-content:left;
+   backdrop-filter: blur(5px);
+   background-color: rgba(250, 250, 250, 0.6);
+   transition: all 1500ms;
+}
+
+div header{
+   width: 100%;
+   padding: 20px;
+   margin-top: 10px;
+   text-align: center;
+}
+
+.Imag{
+   width: 100px;
+   clip-path: circle();
+}
+
+h1{
+   font-size:40px;
+   text-align: center;
+   color: rgb(28, 41, 102);
+}
+
+.CentrarImag{
+   width: 600px;
+   clip-path: ellipse();
+}
+
+button:hover{
+   background: white;
+   color: black;
+}
+
 .boton{
-    background-color: aqua;
-    color: rgb(247, 0, 0);
-    font-size: 21px;
-    text-align: center;
-    padding: 16px 8px;
-    border: 2px solid rgba(60, 209, 255, 0.932);
-    border-radius: 10px;
-    transition-duration: 0.25s;
-    -webkit-transition-duration: 0.25s;
-    box-shadow: 0px 5px 4px darkblue;
-    position:absolute;
-    left: 50%;
-    top: 80%;
-    transform: translateX(-50%) translateY(80%);
- }
- 
- .boton:hover{
-    background-color: blueviolet;
-    color: cyan;
- 
- }
- 
- .centrarT{
-    font-size: 40px;
-    text-transform: uppercase;
-    position:absolute;
-    left: 50%;
-    transform: translateX(-50%);
- }
- 
- .CentrarImag{
-       width: 800px;
-       height: auto;
-       margin: auto;
-       display: block;
-       border-radius: 10px;
-       padding: 10px;
-       border: 2px solid chocolate;
- }
- 
- div{
-  width: 100px;
-  position:absolute;
-  left: 25%;
-  top: 40%;
-  transform: translateX(-25%) translateY(-40%);
- }
- 
- .body{
-    background-image: url("/Picture/Gustavo.jpeg");
- }
+   padding: 10px 40px;
+   margin-top: 1px;
+   margin-left: 10px;
+   border: none;
+   font-size: 14px;
+   background: rgb(12, 199, 168);
+   color: white;
+   cursor: pointer;
+   outline: none;
+}

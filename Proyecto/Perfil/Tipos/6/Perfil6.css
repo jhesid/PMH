@@ -16,7 +16,7 @@ body{
 .Contenedor{
     width: 100%;
     max-width: 400px;
-    margin: 50px 500px;
+    margin: 100px 600px;
     position: relative;
     padding: 10px 20px;
     display: flex;
@@ -57,7 +57,7 @@ h3{
 .Perfil button{
     padding: 10px 40px;
     margin-top: 1px;
-    margin-left: 120px;
+    margin-left: 15px;
     border: none;
     font-size: 14px;
     background: rgb(32, 150, 101);
@@ -72,9 +72,10 @@ button:hover{
 }
 
 .btnFondo1,.btnFondo2,.btnFondo3,.btnFondo4,.btnFondo5,.btnFondo6{
-    padding: 10px 40px;
-    margin-top: 1px;
-    margin-left: 80px;
+    margin: auto;
+    padding: 10px 50px;
+    margin-top: 100px;
+    margin-left: 320px;
     border: none;
     font-size: 14px;
     background: rgb(32, 150, 101);
